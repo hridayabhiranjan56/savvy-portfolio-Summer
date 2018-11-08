@@ -1,0 +1,25 @@
+#navigation li {
+    background-color: green
+}
+
+#navigation li last-child {
+    background-color: hotpink
+}
+
+
+#navigation {
+    background-color: cyan
+}
+
+#navigation > ul > li {
+    display: inline;
+}
+
+#navigation .dropdown {
+    display: none;
+}
+
+#navigation a:hover + .dropdown {
+    display: block;
+}
+
